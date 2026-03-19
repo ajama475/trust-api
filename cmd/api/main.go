@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Trust API is starting...")
+	fmt.Println("Trust API starting...")
 }
