@@ -10,9 +10,7 @@ import (
 func main() {
 	fmt.Println("Trust API starting...")
 	//create new router
-	router := apphttp.NewRouter()
-	fmt.Println("Trust API is starting...")
-	
+	router := apphttp.NewRouter()	
 	//start in port 8080
 	err := http.ListenAndServe(":8080", router)
 	if err != nil {
